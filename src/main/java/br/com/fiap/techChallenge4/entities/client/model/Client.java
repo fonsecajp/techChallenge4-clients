@@ -2,7 +2,7 @@ package br.com.fiap.techChallenge4.entities.client.model;
 
 
 import br.com.fiap.techChallenge4.entities.AbstractEntity;
-import br.com.fiap.techChallenge4.entities.Address;
+import br.com.fiap.techChallenge4.entities.address.Address;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;

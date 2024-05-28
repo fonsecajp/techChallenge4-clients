@@ -1,13 +1,12 @@
 package br.com.fiap.techChallenge4.infraestructure.config.db.schema;
 
 
-import br.com.fiap.techChallenge4.entities.Address;
+import br.com.fiap.techChallenge4.entities.address.Address;
 import br.com.fiap.techChallenge4.entities.client.model.Client;
 import br.com.fiap.techChallenge4.infraestructure.validation.ValidCPFOrCNPJ;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
-import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
 import lombok.Getter;

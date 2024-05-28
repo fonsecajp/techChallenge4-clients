@@ -1,7 +1,7 @@
 package br.com.fiap.techChallenge4.infraestructure.client.dto;
 
 
-import br.com.fiap.techChallenge4.entities.Address;
+import br.com.fiap.techChallenge4.entities.address.Address;
 import br.com.fiap.techChallenge4.entities.client.model.Client;
 import br.com.fiap.techChallenge4.usecases.client.dto.IClientPublicData;
 

@@ -1,7 +1,6 @@
 package br.com.fiap.techChallenge4.infraestructure.client.dto;
 
 
-import br.com.fiap.techChallenge4.entities.Address;
 import br.com.fiap.techChallenge4.usecases.client.dto.IClientRegistrationData;
 
 public record ClientRegistrationData(
@@ -9,6 +8,8 @@ public record ClientRegistrationData(
         String identification,
         String email,
         String phone,
-        Address address
+        String postalCode,
+        Integer number,
+        String complement
 ) implements IClientRegistrationData {
 }
